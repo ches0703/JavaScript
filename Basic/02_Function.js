@@ -18,14 +18,14 @@ console.log(returnFunc());  // -> 1
 
 
 // Parameter(매개변수)가 있는 함수
- function sum(a, b){    // Parameter = a, b
+function sum(a, b){    // Parameter = a, b
     return a + b;       // a와 b의 합 return
- }
- let a = sum(1, 1);
- let b = sum(1, 3);
- let c = sum(10, 7);
+}
+let a = sum(1, 1);
+let b = sum(1, 3);
+let c = sum(10, 7);
 
- console.log(a, b, c);  // -> 2 4 17
+console.log(a, b, c);  // -> 2 4 17
 
 
 
