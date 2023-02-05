@@ -1,4 +1,4 @@
-import getType from "./01__getType"
+import getType from "./getType"
 
 // typeof : 데이터의 타입을 알려 줌
 console.log(typeof "hello world")   // string
